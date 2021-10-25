@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.margin-color{
+    background: #e2eeee;
+    margin: 5px;
+    height: 200px;
+}
+.container{
+    width: 1500px;
+    background: #dadbda;
+    border: 3px solid #908e8e;
+ }
+.header{
+    width:1490px;
+}
+.main_left{
+    width: 1000px;
+
+
+}
+.main_right{
+    width: 480px
+
+}

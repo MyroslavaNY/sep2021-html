@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header, .footer{
+    width: 1500px;
+    height: 199px;
+    background: #ededfa;
+}
+.main_menu{
+    display: flex;
+    width: 1500px;
+    height: 400px;
+    background: #f8f7f7;
+  padding-top: 5px;
+}
+.menu{
+    width: 500px;
+    height: 385px;
+    background: #b8d1f6;
+    margin: 5px;
+}
+.post{
+    width:990px;
+    height: 190px;
+    background:#a7b7ce ;
+    margin: 5px;
+}
+
+
+
+

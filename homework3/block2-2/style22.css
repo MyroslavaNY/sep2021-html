@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header, .footer{
+    width: 1000px;
+    height: 200px;
+    background: #dedcdc;
+}
+.menu{
+    width: 1000px;
+    display: flex;
+    column-gap: 10px;
+}
+.menu_item{
+    width: 33%;
+    height: 150px;
+    margin: 2px;
+    background: #b8d1f6;
+
+}
+
