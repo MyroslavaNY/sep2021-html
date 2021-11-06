@@ -4,8 +4,10 @@
     padding: 0 20px;
 }
 .header{
-    height: 100vh;
     background: url("img/hero image.png") no-repeat center/cover;
+    position: absolute;
+    width: 1440px;
+    height: 900px;
 }
 .header__top{
     padding-top: 50px;
@@ -66,7 +68,7 @@
     font-weight: normal;
     color: #D67E35;
     margin-top: 203px;
-    width: 556px;
+    max-width: 556px;
 }
 .header__title h2{
     font-size: 50px;
@@ -105,4 +107,50 @@
 .header__top_btn{
     display: flex;
    justify-content: center;
+}
+.nav__btn_mobile{
+    display: none;
+    width: 30px;
+    flex-direction: column;
+    row-gap: 4px;
+    margin-right: 17px;
+}
+.nav__btn_mobile div{
+    height: 3px;
+    background: #FF7400;
+    border-radius: 50px;
+    margin-top: 3px;
+}
+.info__block{
+    display: flex;
+   column-gap: 31px;
+    margin-left: 166px;
+    position: relative;
+
+}
+.header__info{
+    width: 349px;
+    height: 428px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.img__info{
+    margin-top: 48px;
+}
+.header__info h4{
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #2C2C2C;
+}
+.header__info p{
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #656363;
 }

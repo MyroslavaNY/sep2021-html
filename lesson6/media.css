@@ -1,7 +1,83 @@
 @media screen and (max-width:400px) {
-    .header__menu{
+    .header__menu {
         display: none;
     }
+    /*    position: absolute;*/
+    /*    flex-direction: column;*/
+    /*    top: 65px;*/
+    /*    background-color: black;*/
+    /*    height: 93vh;*/
+    /*    width: 103%;*/
+    /*    left: -4px;*/
+    /*    padding-top: 50px;*/
+    /*}*/
+    /*.nav{*/
+    /*    flex-direction: column;*/
+    /*    row-gap: 15px;*/
 
+    /*}*/
+    /*.header__contact{*/
+    /*    flex-direction: column;*/
+    /*    row-gap: 5px;*/
+    /*    margin-top: 25px;*/
+    /*}*/
+    /*.header__phone{*/
+    /*    border: none;*/
+    /*}*/
+    .header__logo img{
+        width: 40px;
+    }
+    .wrapper{
+        max-width: 340px;
+        padding: 0 10px;
+    }
+    .header__top{
+        padding-top: 20px;
+        position: relative;
+    }
+    .nav__btn_mobile{
+        display: block;
+    }
+    .header__title{
+        width: 300px;
+        height: 119px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .header__title h2{
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .header__title h1{
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .header__title p::before, .header__title p::after{
+        display: none;
+    }
+    .info__block{
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 200px;
+        row-gap: 10px;
+        margin-left: 36px;
+           }
+    .header__info{
+        width: 290px;
+        height: 376px;
+        margin-top: 10px;
 
+    }
+    .header__info h4{
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .header__info p{
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 25px;
+        text-align: center;
+    }
 }
